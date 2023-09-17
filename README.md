@@ -28,7 +28,7 @@ Type in the following code:
     }
 
 
-###Writing Comments
+### Writing Comments
 To write single line comments in C++, start with two forward slashes //.
 To write multi line comments, start the comment with /* and end the comment with */.
 
