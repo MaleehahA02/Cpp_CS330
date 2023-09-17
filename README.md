@@ -32,3 +32,13 @@ Type in the following code:
 To write single line comments in C++, start with two forward slashes //.
 To write multi line comments, start the comment with /* and end the comment with */.
 
+
+
+
+## Sources
+https://www.oreilly.com/library/view/object-oriented-programming/9789332503663/xhtml/head-0045.xhtml#:~:text=C%2B%2B%20was%20developed%20by%20Bjarne,it%20as%20C%2B%2B%20in%201983. 
+https://www.geeksforgeeks.org/history-of-c/ 
+https://www.programiz.com/cpp-programming 
+https://www.w3schools.com/cpp/cpp_intro.asp 
+
+
