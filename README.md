@@ -18,11 +18,14 @@ To run C++ on VSCode (Visual Studio Code) you will need to install a few extensi
 
 Type in the following code:
 
-#include <iostream>
-int main() {
+    #include <iostream>
+
+    int main() {
+
     std::cout << "Hello World!";
+    
     return 0;
-}
+    }
 
 
 
