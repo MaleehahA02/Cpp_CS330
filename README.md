@@ -67,6 +67,55 @@ C++ uses both floats and doubles for decimals. The float type holds values up to
       return 0;
     }
 
+Ouput:
+
+    int: 25
+    float: 7.5
+    double: 10.25
+    char: M
+    bool: 1
+    string: My name is
+
+#### Arrays
+
+To create an array containing strings, you must type string before the variable, as shown below:
+
+Input:
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+    
+    int main() {
+      string animals[] = {"cat", "dog", "rabbit", "horse", "fish"};
+      cout << animals[0]; //prints the value at index 0
+      return 0;
+    }
+
+
+Output:
+
+    cat
+
+
+To create an array containing integers, you must have int before the variable, as shown below:
+
+Input:
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+    
+    int main() {
+      int num[] = {30, 60, 90};
+      cout << num[2]; //prints the value at index 2
+      return 0;
+    }
+
+Ouput:
+
+    90
+
 ### Naming Conventions:
 When creating identifiers, their names cannot start with a number or a special character. They must start with an alphabetic character. Identifier names can only contain alphabetic characters, digits, or underscores. They cannot contain any other kind of special characters. Keywords or reserved words cannot be used as the name of an identifier. 
 
