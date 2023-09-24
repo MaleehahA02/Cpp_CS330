@@ -32,9 +32,9 @@ Type in the following code:
 To write single line comments in C++, start with two forward slashes //.
 To write multi line comments, start the comment with /* and end the comment with */.
 
-#### Data Types and Naming Conventions
+## Data Types and Naming Conventions
 
-## Data Types:
+### Data Types:
 int - Integer (whole number)
 float - Floating point number (decimals)
 double - Floating point number (decimals)
@@ -67,6 +67,12 @@ C++ uses both floats and doubles for decimals. The float type holds values up to
       return 0;
     }
 
+### Naming Conventions:
+
+
+
+### Reserved Words:
+Reserved words are words that cannot be used as variables or constants in C++ because they already hold a purpose. Keywords only contain alphabetic characters and start with a lowercase letter. There are 95 reserved words. 
 
 
 
