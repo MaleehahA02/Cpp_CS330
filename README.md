@@ -77,9 +77,9 @@ Keywords only contain alphabetic characters and start with a lowercase letter. T
 
 
 Is C++ statically or dynamically typed? <br /> 
-    C++ is statically typed.
+    C++ is statically typed. <br />
 Strongly typed or weakly typed? <br />
-    C++ is strongly typed.
+    C++ is strongly typed. <br />
 Explicitly typed or implicitly typed? <br />
     C++ is explicitly typed.
 
