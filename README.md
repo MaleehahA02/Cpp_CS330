@@ -68,7 +68,17 @@ C++ uses both floats and doubles for decimals. The float type holds values up to
     }
 
 ### Naming Conventions:
+When creating identifiers, their names cannot start with a number or a special character. They must start with an alphabetic character. Identifier names can only contain alphabetic characters, digits, or underscores. They cannot contain any other kind of special characters. Keywords or reserved words cannot be used as the name of an identifier. 
 
+Examples of valid identifiers are: <br /> 
+myNum <br /> 
+my_number <br /> 
+cats3 <br /> 
+
+Examples of invalid identifiers are:<br /> 
+My number (cannot contain a space)<br /> 
+34unicorns (cannot begin with a digit)<br /> 
+switch (cannot use a keyword)<br /> 
 
 
 ### Reserved Words:
