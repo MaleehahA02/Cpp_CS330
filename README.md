@@ -32,6 +32,43 @@ Type in the following code:
 To write single line comments in C++, start with two forward slashes //.
 To write multi line comments, start the comment with /* and end the comment with */.
 
+#### Data Types and Naming Conventions
+
+## Data Types:
+int - Integer (whole number)
+float - Floating point number (decimals)
+double - Floating point number (decimals)
+char - Characters
+bool - boolean (true or false values)
+string - String (text or sequence of characters)
+
+C++ uses both floats and doubles for decimals. The float type holds values up to 7 digits. The double type holds values up to 15 digits.
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+     
+    int main () {
+      int a = 25;               
+      float b = 7.50;     
+      double c = 10.25;   
+      char d = 'M';         
+      bool e = true;       
+      string f = "My name is";   
+       
+      // To print the values of the variables
+      cout << "int: " << a << "\n";
+      cout << "float: " << b << "\n";
+      cout << "double: " << c << "\n";
+      cout << "char: " << d << "\n";
+      cout << "bool: " << e << "\n";
+      cout << "string: " << f << "\n";
+     
+      return 0;
+    }
+
+
+
 
 
 
