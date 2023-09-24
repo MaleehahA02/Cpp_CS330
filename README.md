@@ -76,8 +76,12 @@ Reserved words are words that cannot be used as variables or constants in C++ be
 Keywords only contain alphabetic characters and start with a lowercase letter. There are 95 reserved words. 
 
 
-
-
+Is C++ statically or dynamically typed? <br /> 
+    C++ is statically typed.
+Strongly typed or weakly typed? <br />
+    C++ is strongly typed.
+Explicitly typed or implicitly typed? <br />
+    C++ is explicitly typed.
 
 #### Sources
 https://www.oreilly.com/library/view/object-oriented-programming/9789332503663/xhtml/head-0045.xhtml#:~:text=C%2B%2B%20was%20developed%20by%20Bjarne,it%20as%20C%2B%2B%20in%201983. 
