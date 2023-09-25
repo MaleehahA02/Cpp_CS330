@@ -134,6 +134,31 @@ switch (cannot use a keyword)<br />
 Reserved words are words that cannot be used as variables or constants in C++ because they already hold a purpose. <br />
 Keywords only contain alphabetic characters and start with a lowercase letter. There are 95 reserved words. 
 
+asm  <br />    
+auto <br />
+break <br />
+case <br />
+catch <br />
+char <br />
+class <br />
+const <br />
+continue <br />
+default <br />
+delete <br />
+do <br />
+double <br />
+else <br />
+enum <br />
+extern <br />
+float <br />
+for <br />
+friend <br />
+goto <br />
+if <br />
+inline <br />
+int <br />
+long <br />
+
 
 Is C++ statically or dynamically typed? <br /> 
     C++ is statically typed. <br />
