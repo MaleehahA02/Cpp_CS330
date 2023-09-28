@@ -116,6 +116,44 @@ Ouput:
 
     90
 
+
+#### Maps
+
+C++ maps store elements in a key-value pair. 
+
+Here is an example of a map:
+
+Input:
+
+    #include <iostream>
+    #include <map>
+    using namespace std;
+
+    int main() {
+    
+    map<int, string> cat;
+
+    cat[1] = "Siamese";
+    cat[2] = "Persian";
+    cat[3] = "British Shorthair";
+    cat[4] = "Siberian";
+
+    for (int i = 1; i <= cat.size(); ++i) {
+        cout << "Cat[" << i << "]: " << cat[i] << endl;
+    }
+
+    return 0;
+    }
+
+
+Output:
+
+    Cat[1]: Siamese
+    Cat[2]: Persian
+    Cat[3]: British Shorthair
+    Cat[4]: Siberian
+
+
 ### Naming Conventions:
 When creating identifiers, their names cannot start with a number or a special character. They must start with an alphabetic character. Identifier names can only contain alphabetic characters, digits, or underscores. They cannot contain any other kind of special characters. Keywords or reserved words cannot be used as the name of an identifier. 
 
