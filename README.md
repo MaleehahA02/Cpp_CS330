@@ -208,6 +208,7 @@ Explicitly typed or implicitly typed? <br />
     C++ is explicitly typed.
 
 Mutable or Immutable? <br />
+    Mutable variables mean that their values or data can be change after declaration, where as immutable variables cannot be changed.<br /> 
     C++ is mutable, but if you want to declare an object as immutable, then use const or constexpr when defining the object. 
 
 #### Sources
