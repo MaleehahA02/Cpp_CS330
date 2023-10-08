@@ -211,6 +211,20 @@ Mutable or Immutable? <br />
     Mutable variables mean that their values or data can be change after declaration, where as immutable variables cannot be changed.<br /> 
     C++ is mutable, but if you want to declare an object as immutable, then use const or constexpr when defining the object. 
 
+
+
+
+
+## Loops and Functions
+
+There are 3 different kinds of loops in C++: for, while, do/while.
+
+#### For 
+
+#### While 
+
+#### Do/While
+
 #### Sources
 https://www.oreilly.com/library/view/object-oriented-programming/9789332503663/xhtml/head-0045.xhtml#:~:text=C%2B%2B%20was%20developed%20by%20Bjarne,it%20as%20C%2B%2B%20in%201983. 
 https://www.geeksforgeeks.org/history-of-c/ 
