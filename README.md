@@ -220,6 +220,36 @@ Mutable or Immutable? <br />
 There are 3 different kinds of loops in C++: for, while, do/while.
 
 #### For 
+Here is an example of a how a for loop is used to print out numbers from 0 to 10.
+
+Input:
+
+    #include <iostream>
+    using namespace std;
+    
+    int main() {
+        //starting at 0, increment i by 1 so that i is less than 11
+      for (int i = 0; i < 11; i++) {
+
+        cout << i << "\n"; //prints each number on a new line
+      }
+      return 0;
+    }
+
+Ouput:
+
+    0
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
+    
 
 #### While 
 
