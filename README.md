@@ -219,7 +219,8 @@ Mutable or Immutable? <br />
 
 There are 3 different kinds of loops in C++: for, while, do/while.
 
-#### For 
+### For 
+For loops are entry controlled loops, which means the condition is tested before entering the loop. 
 Here is an example of a how a for loop is used to print out numbers from 0 to 10.
 
 Input:
@@ -251,9 +252,94 @@ Ouput:
     10
     
 
-#### While 
+### While 
+While loops are also entry controlled loops.
+Here is an example of a how a while loop is used to print out numbers from 0 to 10.
 
-#### Do/While
+Input:
+
+    #include <iostream>
+    using namespace std;
+    
+    int main() {
+      int i = 0;
+      while (i < 11) {
+        cout << i << "\n";
+        i++;
+      }
+      return 0;
+    }
+
+Output:
+
+    0
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
+
+### Do/While
+Unlike the for and while loop, do/while loops are exit controlled loops, which means the condition is tested at the end of the loop body. The body of the loop with execute at least once, regardless if the the condition is true or false. 
+Here is an example of a how a do/while loop is used to print out numbers from 0 to 10.
+
+Input:
+
+    #include <iostream>
+    using namespace std;
+    
+    int main() {
+      int i = 0;
+      do {
+        cout << i << "\n";
+        i++;
+      }
+      while (i < 11);
+      return 0;
+    }
+
+Output:
+
+    0
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
+
+### Functions:
+
+Below is an example of a function that takes in 2 numbers, multiplies them, and returns the output.
+
+Input:
+
+    #include <iostream>
+    using namespace std;
+    
+    int main() {
+      double num1, num2, answer;
+      cout << "Please enter two numbers: ";
+    
+      // stores the 2 numbers the user inputs in num1 and num2 respectively
+      cin >> num1 >> num2;
+     
+      // calculates the product and stores the value in answer
+      answer = num1 * num2;  
+    
+      cout << "Answer = " << answer;    
+        
+      return 0;
+    }
 
 #### Sources
 https://www.oreilly.com/library/view/object-oriented-programming/9789332503663/xhtml/head-0045.xhtml#:~:text=C%2B%2B%20was%20developed%20by%20Bjarne,it%20as%20C%2B%2B%20in%201983. 
