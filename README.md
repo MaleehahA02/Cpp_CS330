@@ -368,8 +368,35 @@ Output:
 
     15
 
+## Selection, Loops and Conditionals
 
-    
+### If Statements
+
+Input:
+
+#include <iostream>
+using namespace std;
+
+    int main() {
+      int x = 35;
+      int y = 10;
+      if (x > y) {
+        cout << "x is greater than y.";
+      }  
+      return 0;
+    }
+
+Output:
+
+    x is greater than y.
+
+### If-Else Statements
+
+
+### Else-If Statements
+
+### Ternary Operator
+
 #### Sources
 https://www.oreilly.com/library/view/object-oriented-programming/9789332503663/xhtml/head-0045.xhtml#:~:text=C%2B%2B%20was%20developed%20by%20Bjarne,it%20as%20C%2B%2B%20in%201983. 
 https://www.geeksforgeeks.org/history-of-c/ 
