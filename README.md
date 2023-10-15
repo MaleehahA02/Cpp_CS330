@@ -341,6 +341,35 @@ Input:
       return 0;
     }
 
+
+#### Recursive Functions
+
+Input:
+
+    #include <iostream>
+    using namespace std;
+    
+    int sum(int n) {
+      if (n > 0) {
+        return n + sum(n - 1);
+      } else {
+        return 0;
+      }
+    }
+    
+    int main() {
+      int result = sum(5);
+      //(5+4+3+2+1+0) = 15//
+      cout << result;
+      return 0;
+    }
+
+Output:
+
+    15
+
+
+    
 #### Sources
 https://www.oreilly.com/library/view/object-oriented-programming/9789332503663/xhtml/head-0045.xhtml#:~:text=C%2B%2B%20was%20developed%20by%20Bjarne,it%20as%20C%2B%2B%20in%201983. 
 https://www.geeksforgeeks.org/history-of-c/ 
