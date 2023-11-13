@@ -191,12 +191,16 @@ Mutable or Immutable? <br />
     C++ is mutable, but if you want to declare an object as immutable, then use const or constexpr when defining the object. 
 
 
-###Operators
+### Operators
 
-Arithmetic Operators (table image from [W3Schools](https://www.w3schools.com/cpp/cpp_operators.asp):
+Arithmetic Operators (table image from [W3Schools](https://www.w3schools.com/cpp/cpp_operators.asp)):<br /> 
 <img width="248" alt="Screenshot 2023-11-13 at 12 47 42 PM" src="https://github.com/MaleehahA02/Cpp_CS330/assets/144168274/12b599d0-68f0-435e-8856-dadaec508795">
 
+Assignment Operators (table image from [W3Schools](https://www.w3schools.com/cpp/cpp_operators_assignment.asp)):<br /> 
+<img width="688" alt="Screenshot 2023-11-13 at 12 53 00 PM" src="https://github.com/MaleehahA02/Cpp_CS330/assets/144168274/c686f99c-b534-4272-b9cf-89a612bc9909">
 
+Comparison Operators (table image from [W3Schools](https://www.w3schools.com/cpp/cpp_operators_comparison.asp)):<br /> 
+<img width="446" alt="Screenshot 2023-11-13 at 12 55 34 PM" src="https://github.com/MaleehahA02/Cpp_CS330/assets/144168274/1d0a9119-1ef9-4404-b68f-389fcdbfc780">
 
 ## Loops and Functions
 
