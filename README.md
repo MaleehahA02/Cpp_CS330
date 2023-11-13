@@ -170,9 +170,9 @@ switch (cannot use a keyword)<br />
 
 ### Reserved Words:
 Reserved words are words that cannot be used as variables or constants in C++ because they already hold a purpose. <br />
-Keywords only contain alphabetic characters and start with a lowercase letter. There are 95 reserved words. Here is a list of the reserved keywords from https://en.cppreference.com/w/cpp/keyword
+Keywords only contain alphabetic characters and start with a lowercase letter. There are 95 reserved words. Here is a list of the reserved keywords from https://en.cppreference.com/w/cpp/keyword.
 
-<img width="439" alt="Screenshot 2023-11-13 at 10 08 45 AM" src="https://github.com/MaleehahA02/Cpp_CS330/assets/144168274/fa7fef3f-1c63-404c-929a-6adf78e71a17">
+<img width="439" alt="Screenshot 2023-11-13 at 10 10 50 AM" src="https://github.com/MaleehahA02/Cpp_CS330/assets/144168274/48399511-1a31-45ce-8af6-67e316b59b42">
 
 
 
