@@ -361,8 +361,8 @@ Output:
 
 Input:
 
-#include <iostream>
-using namespace std;
+    #include <iostream>
+    using namespace std;
 
     int main() {
       int x = 35;
@@ -379,6 +379,26 @@ Output:
 
 ### If-Else Statements
 
+Input:
+
+    #include <iostream>
+    using namespace std;
+
+    int main() {
+      int x = 35;
+      int y = 50;
+      if (x > y) {
+        cout << "x is greater than y.";
+      }  
+      else {
+      cout << "y is greater than x.";
+      }
+      return 0;
+    }
+
+Output:
+   
+    y is greater than x.
 
 ### Else-If Statements
 
