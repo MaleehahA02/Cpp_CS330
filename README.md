@@ -425,7 +425,7 @@ Ouput:
 
     x is greater than 25 and less than 50.
     
-### Shorthand: Switch
+### Shorthand: Ternary Operator
 
 #### Sources
 https://www.oreilly.com/library/view/object-oriented-programming/9789332503663/xhtml/head-0045.xhtml#:~:text=C%2B%2B%20was%20developed%20by%20Bjarne,it%20as%20C%2B%2B%20in%201983. 
