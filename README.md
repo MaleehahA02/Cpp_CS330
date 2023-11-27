@@ -306,6 +306,15 @@ Output:
 
 ### Functions:
 
+The syntax for creating a function in C++ is as follows: </br>
+ 
+    void myFunction() {
+      // code to be executed
+    }
+* myFunction is the name of the function.
+* To create a function, its return value must be stated. In this case, its return value is "void" which means it does not have a return value. You can use int, string, void, etc.
+* To call the function, write the name of the function followed by () and ;. To call the function in this case, you would write myFunction();
+
 Below is an example of a function that takes in 2 numbers, multiplies them, and returns the output.
 
 Input:
@@ -313,18 +322,14 @@ Input:
     #include <iostream>
     using namespace std;
     
+    void myMultiplication(int num1, int num2) {
+      int product = num1 * num2;
+      cout << product <<"\n";
+    }
+    
     int main() {
-      double num1, num2, answer;
-      cout << "Please enter two numbers: ";
-    
-      // stores the 2 numbers the user inputs in num1 and num2 respectively
-      cin >> num1 >> num2;
-     
-      // calculates the product and stores the value in answer
-      answer = num1 * num2;  
-    
-      cout << "Answer = " << answer;    
-        
+      myMultiplication(3,2);
+      myMultiplication(5,10);
       return 0;
     }
 
