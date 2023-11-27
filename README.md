@@ -425,7 +425,7 @@ Ouput:
 
     x is greater than 25 and less than 50.
     
-### Shorthand: Ternary Operator
+### Short Hand Else If: Ternary Operator
 
 Input:
 
