@@ -359,6 +359,8 @@ Output:
 
 ### If Statements
 
+If statements are used to specify a block of code to be executed, if and only if the condition is true. 
+
 Input:
 
     #include <iostream>
@@ -378,6 +380,8 @@ Output:
     x is greater than y.
 
 ### If-Else Statements
+
+Else statements are used to specify a block of code to be executed if the condition is false. 
 
 Input:
 
@@ -401,6 +405,8 @@ Output:
     y is greater than x.
 
 ### Else-If Statements
+
+Else If statements are used to specify a new condition. The block of code of the else if statement is executed if the first condition is false and the second condition is true. 
 
 Input:
 
@@ -426,6 +432,11 @@ Ouput:
     x is greater than 25 and less than 50.
     
 ### Short Hand Else If: Ternary Operator
+
+The ternary operator is used instead of if else statements so that there are less lines of code.
+
+The syntax for using the ternary operatory is as follows:
+variable = (condition) ? expressionTrue : expressionFalse;
 
 Input:
 
