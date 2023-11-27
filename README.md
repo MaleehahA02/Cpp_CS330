@@ -402,7 +402,30 @@ Output:
 
 ### Else-If Statements
 
-### Ternary Operator
+Input:
+
+    #include <iostream>
+    using namespace std;
+    
+    int main() {
+      int x = 35;
+      if (x > 50) {
+        cout << "x is greater than 50.";
+      }  
+      else if (x < 25){
+      cout << "x is less than 25.";
+      }
+      else {
+        cout << "x is greater than 25 and less than 50.";
+      }
+      return 0;
+    }
+
+Ouput:
+
+    x is greater than 25 and less than 50.
+    
+### Shorthand: Switch
 
 #### Sources
 https://www.oreilly.com/library/view/object-oriented-programming/9789332503663/xhtml/head-0045.xhtml#:~:text=C%2B%2B%20was%20developed%20by%20Bjarne,it%20as%20C%2B%2B%20in%201983. 
