@@ -589,6 +589,44 @@ Output:
 
 ## Classes and Inheritance
 
+Inheritance is when a class inherit attributes and methods from one another class. The child (derived class) inherits from the parent (base class). 
+
+To use inheritance in C++, the symbol : (colon) is used. 
+
+Input:
+
+    //Code taken from https://www.w3schools.com/cpp/cpp_inheritance.asp
+    #include <iostream>
+    #include <string>
+    using namespace std;
+    
+    // Base class
+    class Vehicle {
+      public: 
+        string brand = "Ford";
+        void honk() {
+          cout << "Tuut, tuut! \n" ;
+        }
+    };
+    
+    // Derived class
+    class Car: public Vehicle {
+      public: 
+        string model = "Mustang";
+    };
+    
+    int main() {
+      Car myCar;
+      myCar.honk();
+      cout << myCar.brand + " " + myCar.model;
+      return 0;
+    }
+
+Output:
+
+    Tuut, tuut!
+    Ford Mustang
+
 #### Sources
 https://www.oreilly.com/library/view/object-oriented-programming/9789332503663/xhtml/head-0045.xhtml#:~:text=C%2B%2B%20was%20developed%20by%20Bjarne,it%20as%20C%2B%2B%20in%201983. 
 https://www.geeksforgeeks.org/history-of-c/ 
