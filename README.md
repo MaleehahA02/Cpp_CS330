@@ -627,6 +627,42 @@ Output:
 
 ## Classes and Inheritance
 
+### Person Object
+
+Input: 
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+    
+    class Person {
+      public:
+        string name;
+        int age;
+    };
+    
+    int main() {
+      Person p1Obj;
+      p1Obj.name = "John";
+      p1Obj.age = 45;
+    
+      Person p2Obj;
+      p2Obj.name = "Jane";
+      p2Obj.age = 35;
+     
+    
+      cout << p1Obj.name << " " << p1Obj.age << "\n";
+      cout << p2Obj.name << " " << p2Obj.age << "\n";
+     
+      return 0;
+    }
+
+Output:
+
+    John 45
+    Jane 35
+
+
 Inheritance is when a class inherit attributes and methods from one another class. The child (derived class) inherits from the parent (base class). 
 
 To use inheritance in C++, the symbol : (colon) is used. 
