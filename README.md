@@ -662,7 +662,7 @@ Output:
     John 45
     Jane 35
 
-
+### Inheritance
 Inheritance is when a class inherit attributes and methods from one another class. The child (derived class) inherits from the parent (base class). 
 
 To use inheritance in C++, the symbol : (colon) is used. 
