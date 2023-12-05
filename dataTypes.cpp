@@ -20,3 +20,12 @@ int main () {
  
   return 0;
 }
+
+/*
+int: 25
+float: 7.5
+double: 10.25
+char: M
+bool: 1
+string: My name is
+*/
