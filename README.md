@@ -631,6 +631,12 @@ Output:
 
 ## Classes and Inheritance
 
+### Classes and Objects
+
+(Table taken from (https://www.w3schools.com/cpp/cpp_oop.asp)
+<img width="955" alt="Screenshot 2023-12-05 at 2 46 10 PM" src="https://github.com/MaleehahA02/Cpp_CS330/assets/144168274/bc192725-87af-4d54-92cb-f59486b0ec3b">
+
+
 ### Person Object
 
 Input: 
