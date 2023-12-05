@@ -22,6 +22,7 @@ int main () {
 }
 
 /*
+Output:
 int: 25
 float: 7.5
 double: 10.25
