@@ -639,7 +639,10 @@ A class is defined using the keyword `class` followed by the name of the class.
 Objects: </br>
 Objects are an instance of a class.
 
-(Table taken from (https://www.w3schools.com/cpp/cpp_oop.asp)
+Syntanx for declaring objects:
+`ClassName ObjectName;`
+
+(Table taken from [W3Schools](https://www.w3schools.com/cpp/cpp_oop.asp))
 <img width="955" alt="Screenshot 2023-12-05 at 2 46 10 PM" src="https://github.com/MaleehahA02/Cpp_CS330/assets/144168274/bc192725-87af-4d54-92cb-f59486b0ec3b">
 
 
