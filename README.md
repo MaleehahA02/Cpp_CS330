@@ -35,12 +35,12 @@ To write multi line comments, start the comment with /* and end the comment with
 ## Data Types and Naming Conventions
 
 ### Data Types:
-int - Integer (whole number) <br />
-float - Floating point number (decimals) <br />
-double - Floating point number (decimals) <br />
-char - Characters <br />
-bool - boolean (true or false values) <br />
-string - String (text or sequence of characters) <br />
+`int` - Integer (whole number) <br />
+`float` - Floating point number (decimals) <br />
+`double` - Floating point number (decimals) <br />
+`char` - Characters <br />
+`bool` - boolean (true or false values) <br />
+`string` - String (text or sequence of characters) <br />
 
 C++ uses both floats and doubles for decimals. The float type holds values up to 7 digits. The double type holds values up to 15 digits.
 
@@ -186,9 +186,9 @@ Output:
 When creating identifiers, their names cannot start with a number or a special character. They must start with an alphabetic character. Identifier names can only contain alphabetic characters, digits, or underscores. They cannot contain any other kind of special characters. Keywords or reserved words cannot be used as the name of an identifier. 
 
 Examples of valid identifiers are: <br /> 
-myNum <br /> 
-my_number <br /> 
-cats3 <br /> 
+`myNum` <br /> 
+`my_number` <br /> 
+`cats3` <br /> 
 
 Examples of invalid identifiers are:<br /> 
 My number (cannot contain a space)<br /> 
@@ -232,7 +232,7 @@ Comparison Operators (table image from [W3Schools](https://www.w3schools.com/cpp
 
 ## Loops and Functions
 
-There are 3 different kinds of loops in C++: for, while, do/while.
+There are 3 different kinds of loops in C++: `for`, `while`, `do/while`.
 
 ### For 
 For loops are entry controlled loops, which means the condition is tested before entering the loop. 
@@ -340,8 +340,8 @@ The syntax for creating a function in C++ is as follows: </br>
       // code to be executed
     }
 * myFunction is the name of the function.
-* To create a function, its return value must be stated. In this case, its return value is "void" which means it does not have a return value. You can use int, string, void, etc.
-* To call the function, write the name of the function followed by () and ;. To call the function in this case, you would write myFunction();
+* To create a function, its return value must be stated. In this case, its return value is `void` which means it does not have a return value. You can use int, string, void, etc.
+* To call the function, write the name of the function followed by () and ;. To call the function in this case, you would write `myFunction();`
 
 Below is an example of a function that takes in 2 numbers, multiplies them, and returns the output.
 
@@ -394,7 +394,7 @@ Output:
 #### Split String Function
 
 To split strings means to take a string (a sequence of characters), and divide it into single words. </br>
-There are many ways to split strings in C++. The example below uses the strtok() function. 
+There are many ways to split strings in C++. The example below uses the `strtok()` function. 
 
 Input: 
 
@@ -639,7 +639,7 @@ A class is defined using the keyword `class` followed by the name of the class.
 Objects: </br>
 Objects are an instance of a class.
 
-Syntanx for declaring objects:
+Syntanx for declaring objects:</br>
 `ClassName ObjectName;`
 
 (Table taken from [W3Schools](https://www.w3schools.com/cpp/cpp_oop.asp))
@@ -755,9 +755,9 @@ Output:
     Time: 3:00 PM
 
 #### Sources
-https://www.oreilly.com/library/view/object-oriented-programming/9789332503663/xhtml/head-0045.xhtml#:~:text=C%2B%2B%20was%20developed%20by%20Bjarne,it%20as%20C%2B%2B%20in%201983. 
-https://www.geeksforgeeks.org/history-of-c/ 
-https://www.programiz.com/cpp-programming 
-https://www.w3schools.com/cpp/cpp_intro.asp 
+https://www.oreilly.com/library/view/object-oriented-programming/9789332503663/xhtml/head-0045.xhtml#:~:text=C%2B%2B%20was%20developed%20by%20Bjarne,it%20as%20C%2B%2B%20in%201983. </br>
+https://www.geeksforgeeks.org/history-of-c/ </br>
+https://www.programiz.com/cpp-programming </br>
+https://www.w3schools.com/cpp/cpp_intro.asp </br>
 
 
