@@ -366,6 +366,7 @@ Input:
 
 Input:
 
+    // Code modified from https://www.w3schools.com/cpp/cpp_functions_recursion.asp
     #include <iostream>
     using namespace std;
     
@@ -391,6 +392,9 @@ Output:
 
 
 #### Split String Function
+
+To split strings means to take a string (a sequence of characters), and divide it into single words. </br>
+There are many ways to split strings in C++. The example below uses the strtok() function. 
 
 Input: 
 
