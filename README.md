@@ -633,6 +633,12 @@ Output:
 
 ### Classes and Objects
 
+Classes: </br>
+A class is defined using the keyword `class` followed by the name of the class.
+
+Objects: </br>
+Objects are an instance of a class.
+
 (Table taken from (https://www.w3schools.com/cpp/cpp_oop.asp)
 <img width="955" alt="Screenshot 2023-12-05 at 2 46 10 PM" src="https://github.com/MaleehahA02/Cpp_CS330/assets/144168274/bc192725-87af-4d54-92cb-f59486b0ec3b">
 
@@ -647,20 +653,20 @@ Input:
     
     class Person {
       public:
-        string name;
-        int age;
+        string name; //Attribute (string variable)
+        int age; //Attribute (int variable)
     };
     
     int main() {
-      Person p1Obj;
-      p1Obj.name = "John";
+      Person p1Obj; //Create an object of the Person class
+      p1Obj.name = "John"; //Access attributes and set values
       p1Obj.age = 45;
     
-      Person p2Obj;
-      p2Obj.name = "Jane";
+      Person p2Obj; //Create an object of the Person class
+      p2Obj.name = "Jane";  //Access attributes and set values
       p2Obj.age = 35;
      
-    
+      //Print attribute values for each of the objects
       cout << p1Obj.name << " " << p1Obj.age << "\n";
       cout << p2Obj.name << " " << p2Obj.age << "\n";
      
