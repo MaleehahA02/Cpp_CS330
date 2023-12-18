@@ -206,7 +206,7 @@ Keywords only contain alphabetic characters and start with a lowercase letter. T
 
 
 Is C++ statically or dynamically typed? <br /> 
-    C++ is statically typed. <br />
+    C++ is statically typed. This means that type checking occurs at compile time. <br />
     
 Strongly typed or weakly typed? <br />
     C++ is strongly typed. <br />
@@ -444,6 +444,8 @@ Output:
     function.
 
 #### Pass by Reference or Pass by Value?
+
+C++ functions can be passed by reference or by value.
 
 Input:
 
