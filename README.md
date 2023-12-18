@@ -238,6 +238,8 @@ There are 3 different kinds of loops in C++: `for`, `while`, `do/while`.
 For loops are entry controlled loops, which means the condition is tested before entering the loop. 
 Here is an example of a how a for loop is used to print out numbers from 0 to 10.
 
+In the example below, a for loop is used to print numbers between 1 and 10. The variable `i` is created and set to 0. The statement `i < 11` sets the condition, so that for as long as i is less than 11, the loop will continue to execute. Once i is equal to 11, the loop will stop and no more numbers will be printed. The `i++` increments the value of `i` by 1 every time it goes through the loop.
+
 Input:
 
     #include <iostream>
@@ -269,7 +271,8 @@ Ouput:
 
 ### While 
 While loops are also entry controlled loops.
-Here is an example of a how a while loop is used to print out numbers from 0 to 10.
+
+Here is an example of a how a while loop is used to print out numbers from 0 to 10. The variable `i` is initialized and set to 0. ` while (i < 11)` means that the loop will continue to execute as long as the value of i is less than 11. The value of `i` is incremented by 1 after the value of i is printed. 
 
 Input:
 
