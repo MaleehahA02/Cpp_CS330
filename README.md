@@ -762,13 +762,15 @@ Input:
     #include <iostream>
     #include <string>
     using namespace std;
-    
+
+    //Parent (Base) Class
     class Person {
       public:
         string name;
         int age;
     };
-    
+
+     //Child (Derived) Class
     class Appointment : public Person {
       public:
         string location;
