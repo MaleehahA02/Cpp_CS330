@@ -2,12 +2,14 @@
 #include <string>
 using namespace std;
 
+//Parent (Base) class
 class Person {
   public:
     string name;
     int age;
 };
 
+//Child (Derived) class
 class Appointment : public Person {
   public:
     string location;
