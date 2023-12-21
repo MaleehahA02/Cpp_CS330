@@ -694,7 +694,53 @@ Output:
 
     Saturday
 
+### Short-Circuit Logic
 
+#### AND
+
+Input: 
+
+    #include <iostream>
+    using namespace std;
+    
+    int main() {
+      if (1 == 2 && 3 == 3) {
+             cout << "(1 == 2 && 3 == 3) is true";
+          } 
+          else {
+             cout<< "(1 == 2 && 3 == 3) is false";
+          }
+      return 0;
+    }
+
+Output:
+
+    (1 == 2 && 3 == 3) is false
+
+#### OR
+
+Input:
+
+    #include <iostream>
+    using namespace std;
+    
+    int main() {
+      if (3 == 3 || 1 == 2) {
+             cout <<"(3 == 3 || 1 == 2) is true";
+             } 
+         else {
+             cout <<"(3 == 3 || 1 == 2) is false";
+          }
+      return 0;
+    }
+
+
+Output:
+
+    (3 == 3 || 1 == 2) is true
+
+
+    
 ## Classes and Inheritance
 
 ### Classes and Objects
