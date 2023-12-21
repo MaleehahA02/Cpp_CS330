@@ -230,6 +230,67 @@ Assignment Operators (table image from [W3Schools](https://www.w3schools.com/cpp
 Comparison Operators (table image from [W3Schools](https://www.w3schools.com/cpp/cpp_operators_comparison.asp)):<br /> 
 <img width="446" alt="Screenshot 2023-11-13 at 12 55 34 PM" src="https://github.com/MaleehahA02/Cpp_CS330/assets/144168274/1d0a9119-1ef9-4404-b68f-389fcdbfc780">
 
+
+#### Adding Int and Float Types
+
+In C++, you can add int and float types. The result will be a float type.
+
+Input: 
+       
+    #include <iostream>
+    using namespace std;
+    
+    int main() {
+      int a = 5;
+      float b = 7.5; 
+      cout << a + b;
+      return 0;
+    }
+    
+Output:
+
+    12.5
+
+#### Dividing Int and Float Types
+
+In C++, you can divide int and float types. The result will be a float type.
+
+Input: 
+       
+    #include <iostream>
+    using namespace std;
+    
+    int main() {
+      int a = 7.5;
+      float b = 2; 
+      cout << a/b;
+      return 0;
+    }
+    
+Output:
+
+    3.5
+
+#### Adding Int and String Types
+
+In C++, you cannot add int and string types. This will result in an error.
+
+Input: 
+
+    #include <iostream>
+    using namespace std;
+    
+    int main() {
+      int a = 30;
+      string b = "5";
+      string c = a + b;
+      return 0;
+    }
+
+Ouput:
+
+        Error
+
 ## Loops and Functions
 
 There are 3 different kinds of loops in C++: `for`, `while`, `do/while`.
