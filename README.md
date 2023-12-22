@@ -24,13 +24,13 @@ To make sure that the program runs in the terminal, click on the gear (settings 
 In the settings search bar, look up terminal and make sure the checkbox is ticked off for Run in Terminal as shown in the image below. 
 
 
-<img width="909" alt="Screenshot 2023-12-22 at 5 40 35 AM" src="https://github.com/MaleehahA02/Cpp_CS330/assets/144168274/3a10e58e-316e-4813-9a77-09ad3b3ca603">
+<img width="800" alt="Screenshot 2023-12-22 at 5 40 35 AM" src="https://github.com/MaleehahA02/Cpp_CS330/assets/144168274/3a10e58e-316e-4813-9a77-09ad3b3ca603">
 
 
 
 ### Running a Program 
 
-To run a C++ program, click on the downwards arrow next to the run/play button, and select Run Code.
+To run a C++ program, find the run/play button in the top right corner. Click on the downwards arrow next to the run/play button, and select Run Code.
 
 <img width="305" alt="Screenshot 2023-12-22 at 5 43 34 AM" src="https://github.com/MaleehahA02/Cpp_CS330/assets/144168274/7ca65c57-1e2b-48ee-b017-a5ea41f38372">
 
