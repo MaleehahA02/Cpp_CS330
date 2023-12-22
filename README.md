@@ -14,7 +14,7 @@ To install Visual Studio Code, use https://code.visualstudio.com/download and do
 
 To run C++ on VSCode (Visual Studio Code) you will need to install a few extensions. Install the C/C++ and C/C++ Extension Pack by Microsoft. If you are still having trouble running C++, then also install an extension called Code Runner by Jun Han. 
 
-#### "Hello World" program
+### Hello World
 
 To create a Hello World program in C++, type in the following code:
 
