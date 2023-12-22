@@ -837,7 +837,7 @@ Syntanx for declaring objects:</br>
 `ClassName ObjectName;`
 
 (Table taken from [W3Schools](https://www.w3schools.com/cpp/cpp_oop.asp))
-<img width="800" alt="Screenshot 2023-12-05 at 2 46 10 PM" src="https://github.com/MaleehahA02/Cpp_CS330/assets/144168274/bc192725-87af-4d54-92cb-f59486b0ec3b">
+<img width="700" alt="Screenshot 2023-12-05 at 2 46 10 PM" src="https://github.com/MaleehahA02/Cpp_CS330/assets/144168274/bc192725-87af-4d54-92cb-f59486b0ec3b">
 
 
 ### Person Object
