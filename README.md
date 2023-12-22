@@ -12,7 +12,14 @@ I used Visual Studio Code as my programming environment, but other environments 
 
 To install Visual Studio Code, use https://code.visualstudio.com/download and download the one for your operating system. 
 
-To run C++ on VSCode (Visual Studio Code) you will need to install a few extensions. Install the C/C++ and C/C++ Extension Pack by Microsoft. If you are still having trouble running C++, then also install an extension called Code Runner by Jun Han. 
+To run C++ on VSCode (Visual Studio Code) you will need to install a few extensions. Install the C/C++ and C/C++ Extension Pack by Microsoft. 
+
+If you are still having trouble running C++, then also install an extension called Code Runner by Jun Han. 
+
+To make sure that the program runs in the terminal, click on the gear (settings icon) on the Code Runner extension and click on Extension Settings as shown in the image below.
+
+<img width="346" alt="Screenshot 2023-12-22 at 5 38 11 AM" src="https://github.com/MaleehahA02/Cpp_CS330/assets/144168274/8e2d32aa-0007-4fed-a117-c5566ce2afd7">
+
 
 ### Hello World
 
