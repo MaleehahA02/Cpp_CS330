@@ -21,6 +21,11 @@ To make sure that the program runs in the terminal, click on the gear (settings 
 <img width="346" alt="Screenshot 2023-12-22 at 5 38 11 AM" src="https://github.com/MaleehahA02/Cpp_CS330/assets/144168274/8e2d32aa-0007-4fed-a117-c5566ce2afd7">
 
 
+In the settings search bar, look up terminal and make sure the checkbox is ticked off.
+
+
+<img width="909" alt="Screenshot 2023-12-22 at 5 40 35 AM" src="https://github.com/MaleehahA02/Cpp_CS330/assets/144168274/3a10e58e-316e-4813-9a77-09ad3b3ca603">
+
 ### Hello World
 
 To create a Hello World program in C++, type in the following code:
