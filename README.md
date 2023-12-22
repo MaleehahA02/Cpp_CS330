@@ -16,7 +16,7 @@ To run C++ on VSCode (Visual Studio Code) you will need to install a few extensi
 
 #### "Hello World" program
 
-Type in the following code:
+To create a Hello World program in C++, type in the following code:
 
     #include <iostream> // header file library to input and output objects
 
@@ -31,13 +31,14 @@ Type in the following code:
 Output:
 
     Hello World!
+    
 
-#include iostream: iostream stands for input-output stream. It is the header file library to input and output objects
-int main(): declare the main function
-std : use built-in functions, variables from the standard library
-cout : Stands for "character output". print method in C++ 
-<< : insertion operator, used with cout
-return 0: The main() function returns 0 if the program was successfully executed
+#include iostream: iostream stands for input-output stream. It is the header file library to input and output objects </br>
+int main(): declare the main function </br>
+std : use built-in functions, variables from the standard library </br>
+cout : Stands for "character output". print method in C++ </br>
+<< : insertion operator, used with cout </br>
+return 0: The main() function returns 0 if the program was successfully executed </br>
 
 
 ### Writing Comments
