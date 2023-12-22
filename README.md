@@ -22,9 +22,9 @@ Type in the following code:
 
     int main() { // main function
 
-    std::cout << "Hello World!"; // print function
-    
-    return 0; // exit function
+        std::cout << "Hello World!"; // print function
+        
+        return 0; // exit function
    
     } 
 
