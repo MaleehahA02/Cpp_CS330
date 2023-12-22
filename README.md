@@ -18,10 +18,10 @@ If you are still having trouble running C++, then also install an extension call
 
 To make sure that the program runs in the terminal, click on the gear (settings icon) on the Code Runner extension and click on Extension Settings as shown in the image below.
 
-<img width="346" alt="Screenshot 2023-12-22 at 5 38 11 AM" src="https://github.com/MaleehahA02/Cpp_CS330/assets/144168274/8e2d32aa-0007-4fed-a117-c5566ce2afd7">
+<img width="346" alt="Screenshot 2023-12-22 at 5 38 11 AM" src="https://github.com/MaleehahA02/Cpp_CS330/assets/144168274/8e2d32aa-0007-4fed-a117-c5566ce2afd7"> </br>
 
 
-In the settings search bar, look up terminal and make sure the checkbox is ticked off.
+In the settings search bar, look up terminal and make sure the checkbox is ticked off for Run in Terminal as shown in the image below. 
 
 
 <img width="909" alt="Screenshot 2023-12-22 at 5 40 35 AM" src="https://github.com/MaleehahA02/Cpp_CS330/assets/144168274/3a10e58e-316e-4813-9a77-09ad3b3ca603">
