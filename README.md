@@ -919,6 +919,13 @@ Output:
     Date: 2023-01-24
     Time: 3:00 PM
 
+Person as the parent (base) class and Appointment as the child (derived) class. The Appointment class inherits the attributes (name and age) from the Person class.
+
+The Person class has two public members: name of type string and age of type int. </br>
+The Appointment class is derived from the Person class using the public access specifier. It adds three other attributes: location, date, and time, all of type string. </br>
+In the main() function, two objects of the Appointment class, appt1 and appt2, are created. </br>
+The details of both appointments are printed out using cout.  </br>
+
 
 ## Multiple Inheritance
 
