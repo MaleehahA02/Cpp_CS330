@@ -945,9 +945,8 @@ Input:
         string time;
     };
     
-    // Child (Derived) Class
+    // Child (Derived) Class - Inherits from both the Person and Event classes
     class Appointment : public Person, public Event {
-      // No additional members or methods needed
     };
     
     int main() {
