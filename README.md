@@ -26,6 +26,16 @@ In the settings search bar, look up terminal and make sure the checkbox is ticke
 
 <img width="909" alt="Screenshot 2023-12-22 at 5 40 35 AM" src="https://github.com/MaleehahA02/Cpp_CS330/assets/144168274/3a10e58e-316e-4813-9a77-09ad3b3ca603">
 
+
+
+### Running a Program 
+
+To run a C++ program, click on the downwards arrow next to the run/play button, and select Run Code.
+
+<img width="305" alt="Screenshot 2023-12-22 at 5 43 34 AM" src="https://github.com/MaleehahA02/Cpp_CS330/assets/144168274/7ca65c57-1e2b-48ee-b017-a5ea41f38372">
+
+
+
 ### Hello World
 
 To create a Hello World program in C++, type in the following code:
