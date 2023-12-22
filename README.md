@@ -511,15 +511,21 @@ Output:
     function.
 
 #### Pass by Reference or Pass by Value?
+C++ functions can be passed by reference or by value. </br>
 
-C++ functions can be passed by reference or by value.
+C++ uses pass by value by default. When functions are called with arguments that are passed by value, copies of the value are made and used inside the function. Any changes that are made to variables within the function will have no affect on the original variables. 
+
+C++ can also use pass by reference. When functions are with arguments passed by reference, the memory address of variables is passed. Unlike pass by value, [ass by reference does not create copies when modifying a variable, thus any changes made to the variables inside the function will affect the original variables when it is called. 
+
+Below is an example of both pass by value and pass by reference in C++. 
 
 Input:
 
     //Code taken from https://www.bogotobogo.com/cplusplus/valuevsreference.php#:~:text=C%2B%2B%20uses%20call%2Dby%2Dvalue,mimic%20call%2Dby%2Dreference. 
     #include <iostream>
     using namespace std;
-    
+
+    //Pass by value
     template<class T>
     void swapVal(T obj1, T obj2) {
     	T temp = obj1;
@@ -527,6 +533,7 @@ Input:
     	obj2 = temp;
     }
     
+    //Pass by reference
     template<class T>
     void swapRef(T& obj1, T& obj2) {
     	T temp = obj1;
@@ -560,7 +567,11 @@ Output:
     Reference:
     1: a = 300 b = 400
     2: a = 400 b = 300
-    
+
+The function swapVal swaps the values of obj1 and obj2 using the variable temp. Since the objects are passed by value, the changes made inside the function do not affect in the original variables a and b in the main function. So after calling swapVal(a, b), the values of a and b in the main function remain unchanged.
+
+For the swapRef function, the objects obj1 and obj2 are passed by reference using the & symbol. The swapRef function swaps the values of obj1 and obj2 using the variable temp. But since the objects are passed by reference, the changes made inside the function affect the original variables a and b in the main function. Thus, after calling swapRef(a, b), the values of a and b in the main function are swapped.
+
 ## Selection, Loops and Conditionals
 
 ### If Statements
