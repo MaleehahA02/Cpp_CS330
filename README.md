@@ -440,6 +440,7 @@ The syntax for creating a function in C++ is as follows: </br>
     void myFunction() {
       // code to be executed
     }
+    
 * myFunction is the name of the function.
 * To create a function, its return value must be stated. In this case, its return value is `void` which means it does not have a return value. You can use int, string, void, etc.
 * To call the function, write the name of the function followed by () and ;. To call the function in this case, you would write `myFunction();`
@@ -602,6 +603,39 @@ Output:
 The function swapVal swaps the values of obj1 and obj2 using the variable temp. Since the objects are passed by value, the changes made inside the function do not affect in the original variables a and b in the main function. So after calling swapVal(a, b), the values of a and b in the main function remain unchanged.
 
 For the swapRef function, the objects obj1 and obj2 are passed by reference using the & symbol. The swapRef function swaps the values of obj1 and obj2 using the variable temp. But since the objects are passed by reference, the changes made inside the function affect the original variables a and b in the main function. Thus, after calling swapRef(a, b), the values of a and b in the main function are swapped.
+
+
+#### Multiple Parameters
+
+Input:
+
+    // This code example was taken and modified from https://www.w3schools.com/cpp/cpp_function_multiple.asp
+    #include <iostream>
+    #include <string>
+    using namespace std;
+    
+    void myFunction(string fname, int age) {
+      cout << fname << " Khan. " << age << " years old. \n";
+    }
+    
+    int main() {
+      myFunction("Aliza", 12);
+      myFunction("Noor", 40);
+      myFunction("Zaid", 45);
+      return 0;
+    }
+
+Output:
+
+    Aliza Khan. 12 years old. 
+    Noor Khan. 40 years old. 
+    Zaid Khan. 45 years old. 
+
+
+The code defines a function called `myFunction`. This function takes two parameters: a string `fname` and an integer `age`. Inside the function, it prints the value of `fname`, followed by the string "Khan.", then the value of age, and finally a newline character `\n`.
+
+The main function, the myFunction is called three times with different arguments. As a result, the function prints the names and ages of three individuals.
+
 
 ## Selection, Loops and Conditionals
 
@@ -803,7 +837,7 @@ Syntanx for declaring objects:</br>
 `ClassName ObjectName;`
 
 (Table taken from [W3Schools](https://www.w3schools.com/cpp/cpp_oop.asp))
-<img width="955" alt="Screenshot 2023-12-05 at 2 46 10 PM" src="https://github.com/MaleehahA02/Cpp_CS330/assets/144168274/bc192725-87af-4d54-92cb-f59486b0ec3b">
+<img width="800" alt="Screenshot 2023-12-05 at 2 46 10 PM" src="https://github.com/MaleehahA02/Cpp_CS330/assets/144168274/bc192725-87af-4d54-92cb-f59486b0ec3b">
 
 
 ### Person Object
@@ -903,6 +937,7 @@ Input:
     
       return 0;
       }
+      
 Output:
 
     Appointment 1:
