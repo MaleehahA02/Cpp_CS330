@@ -10,7 +10,7 @@ C++ was developed at Bells Laboratories by Bjarne Stroustrup in 1979. Originally
 ### Installation on MacOS
 I used Visual Studio Code as my programming environment, but other environments that are good to run C++ in are Code::Blocks and Eclipse. 
 
-To install Visual Studio Code, use https://code.visualstudio.com/download and download the one for your operating system. 
+To install Visual Studio Code, use https://code.visualstudio.com/download and download the one for your operating system. My operating system is MacOS.
 
 To run C++ on VSCode (Visual Studio Code) you will need to install a few extensions. Install the C/C++ and C/C++ Extension Pack by Microsoft. 
 
