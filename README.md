@@ -27,6 +27,10 @@ Type in the following code:
     return 0;
     }
 
+Output:
+
+    Hello World!
+
 
 ### Writing Comments
 To write single line comments in C++, start with two forward slashes //.
@@ -43,6 +47,8 @@ To write multi line comments, start the comment with /* and end the comment with
 `string` - String (text or sequence of characters) <br />
 
 C++ uses both floats and doubles for decimals. The float type holds values up to 7 digits. The double type holds values up to 15 digits.
+
+Input:
 
     #include <iostream>
     #include <string>
